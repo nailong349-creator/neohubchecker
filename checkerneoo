@@ -11,7 +11,7 @@ def log(text,sleep=None):
 
 class settings:
     token = 'MTU2Njc2ODAzOTIxMzY2NjMzNA.GaOSQH.d2TEMylI4ZrOclR5-ggcl01aHzCOUvwSA4bzY8' # Discord Bot Token
-    prefix = '.' # Bot Prefix
+    prefix = '/' # Bot Prefix
     bot_status = 'checker ni lyek' # Bot Status
     client = commands.Bot(command_prefix=prefix)
 
